@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box {
+    display: table;
+    max-width: 312px;
+    width: 100%;
+    margin: 25px auto 0;
+    background: lightgray;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 14px #000;
+}
+
+.top {
+    float: left;
+    width: 100%;
+    background: #2a2f32;
+}
+
+.top h1 {
+    margin: 0;
+    color: lightcoral;
+    font-size: 25px;
+    padding: 11px 10px;
+}
+
+.image {
+    float: left;
+    width: 100%;
+}
+
+.image img {
+    max-width: 225px;
+    background: lightgray;
+    margin: 0 auto;
+    display: table;
+    width: 100%;
+}
+
+.mid {
+    float: left;
+    width: 100%;
+    background: #00af9c;
+}
+
+.mid h2 {
+    font-size: 22px;
+    margin: 0;
+    padding: 10px 8px;
+}
+
+.chat p#chatLog {
+    float: left;
+    width: 100%;
+    padding: 10px 11px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 0;
+    color: #1e2ab3;
+}
+
+.input {
+    float: left;
+    width: 97%;
+}
+
+.input input {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 0 0 0 11px;
+    font-family: cursive;
+    background: #090e11;
+    color: #fff;
+}
+
+.links {
+    max-width: 400px;
+    margin: 25px auto 0;
+    background: #2a2f32;
+    border-radius: 10px;
+    padding: 0 0 15px 0;
+}
+
+.links h1 {
+    margin: 0;
+    color: lightcoral;
+    padding: 15px 20px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.links h2, .links h3, .links h4 {
+    margin: 0;
+    padding: 15px 20px 0;
+    color: #fff;
+}
+
+/* .icon {
+    float: right;
+    width: 40px;
+    background: #1e2ab3;
+    margin: -60px 0 0 0;
+    position: relative;
+    left: 11px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.icon i {
+    margin: 0 auto;
+    display: table;
+    font-size: 25px;
+    color: #090e11;
+    position: relative;
+    top: 16px;
+} */
